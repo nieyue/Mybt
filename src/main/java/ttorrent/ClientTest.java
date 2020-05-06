@@ -18,7 +18,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ClientTest {
+   static String baseUrl="E:\\nieyue\\IntelliJIDE\\work\\Mybt\\src\\main\\resources";
+    //static String baseUrl = "E:\\nieyue\\ide\\bt\\bt-cli";
     public static void start(final Long id) throws IOException, NoSuchAlgorithmException {
+
 // First, instantiate the Client object.
         Client client = new Client(
                 // This is the interface the client will listen on (you might need something
@@ -28,8 +31,8 @@ public class ClientTest {
                 // Load the torrent from the torrent file and use the given
                 // output directory. Partials downloads are automatically recovered.
                 SharedTorrent.fromFile(
-                        new File("E:\\nieyue\\ide\\bt\\bt-cli\\a.torrent"),
-                        new File("E:\\nieyue\\ide\\bt\\bt-cli\\t")));
+                        new File(baseUrl+"\\tester.rmvb.torrent"),
+                        new File(baseUrl)));
 
 // You can optionally set download/upload rate limits
 // in kB/second. Setting a limit to 0.0 disables rate
@@ -74,7 +77,7 @@ public class ClientTest {
             }
         };
 
-        for (File f : new File("E:\\nieyue\\ide\\bt\\bt-cli\\t").listFiles(filter)) {
+        for (File f : new File(baseUrl).listFiles(filter)) {
             tracker.announce(TrackedTorrent.load(f));
         }
 
@@ -85,6 +88,7 @@ public class ClientTest {
        // tracker.stop();
     }
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
+        t();
         ExecutorService threads = Executors.newFixedThreadPool(5);
         for (int i = 0; i < 1; i++) {
             threads.execute(new Runnable() {
@@ -101,6 +105,5 @@ public class ClientTest {
             });
         }
 
-       // t();
     }
 }
