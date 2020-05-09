@@ -1,0 +1,16 @@
+
+Fsquid:S1148f"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8õÈÿäž.
+V
+squid:S1067"9Replace this use of System.out or System.err by a logger.(·çü„8õÈÿäž.
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ûŒíÝ8õÈÿäž.
+Ksquid:S1604^"(Make this anonymous inner class a lambda(ý°ñþÿÿÿÿ8õÈÿäž.
+jsquid:UselessImportCheck":Remove this unused import 'java.net.UnknownHostException'.(Ú·¬˜úÿÿÿÿ8·º£Íž.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÉöáÍ8—Å‚åž.
+Fsquid:S1604I"(Make this anonymous inner class a lambda(žØ­¡8õÈÿäž.
+asquid:S2147e"DCombine this catch with the one at line 99, which has the same body.(ÿÒ„p8õÈÿäž.
+nsquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(£ì†§ÿÿÿÿÿ8õÈÿäž.
+Fsquid:S16041"(Make this anonymous inner class a lambda(µÎÄ‘8õÈÿäž.
+Fsquid:S1148d"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8õÈÿäž.
+¤%squid:RedundantThrowsDeclarationCheckZ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(òÎ…‰8Ò±ËžŸ.
+·%squid:RedundantThrowsDeclarationCheckZ"Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.(òÎ…‰8Ò±ËžŸ.
+isquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(¡õÝö8Ò±ËžŸ.

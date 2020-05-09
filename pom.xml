@@ -44,11 +44,11 @@
             <version>1.9</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.turn</groupId>
             <artifactId>ttorrent-core</artifactId>
             <version>1.5</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
 
