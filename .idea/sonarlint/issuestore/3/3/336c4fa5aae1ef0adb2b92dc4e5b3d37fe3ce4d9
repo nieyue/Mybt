@@ -1,0 +1,54 @@
+
+nsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(ÓÂ“—øÿÿÿÿ8Ù¢ü˜ .
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(´ò•Øùÿÿÿÿ8µœ†” .
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯éÅ8Çè— .
+V
+squid:S106="9Replace this use of System.out or System.err by a logger.(›åÔ’8Çè— .
+[
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ßî¶¯ùÿÿÿÿ8Ä¶Â” .
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(•åÁ8ÙêÜ“ .
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¢Óä¿þÿÿÿÿ8µœ†” .
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+V
+squid:S1061"9Replace this use of System.out or System.err by a logger.(£Œ¤¢8Çè— .
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+isquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(ÿþ­8Çè— .
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(ê§“ûÿÿÿÿ8Çè— .
+isquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+V
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Ÿ´Å«8«ê†” .
+isquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+V
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(Þ›Èý8Çè— .
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(º§×£8­•Þ“ .
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ãà½ºýÿÿÿÿ8Çè— .
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(°ìÑµýÿÿÿÿ8Çè— .
+Fsquid:S1148^"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Çè— .
+isquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+[
+squid:S106J"9Replace this use of System.out or System.err by a logger.(ßî¶¯ùÿÿÿÿ8Ö©þ“ .
+V
+squid:S106U"9Replace this use of System.out or System.err by a logger.(œ‰­ó8Çè— .
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(É¯—Îøÿÿÿÿ8Çè— .
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¹­²ìøÿÿÿÿ8´©ˆ” .
+V
+squid:S106:"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+zsquid:S1192%"\Define a constant instead of duplicating this literal "peerInformation getAddress=" 4 times.(’Ò©Ð8Çè— .
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(´ò•Øùÿÿÿÿ8³àÿ“ .
+[
+squid:S106L"9Replace this use of System.out or System.err by a logger.(¢Óä¿þÿÿÿÿ8™€” .
+V
+squid:S106M"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .

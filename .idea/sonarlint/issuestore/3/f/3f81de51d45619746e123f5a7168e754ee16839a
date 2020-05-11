@@ -1,0 +1,26 @@
+
+[
+squid:S106e"9Replace this use of System.out or System.err by a logger.(ÇÛÑîúÿÿÿÿ8ë ¶»Ÿ.
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 68 to the 15 allowed.(¢§„¬üÿÿÿÿ8ë ¶»Ÿ.
+V
+squid:S106q"9Replace this use of System.out or System.err by a logger.(¨Ë8ë ¶»Ÿ.
+\"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÙıŒóÿÿÿÿÿ8ë ¶»Ÿ.
+nsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(ªó°´şÿÿÿÿ8°‹Ï»Ÿ.
+V
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ş…äÖ8Š˜ê»Ÿ.
+asquid:S1155g">Use isEmpty() to check whether the collection is empty or not.(ğİÅúÿÿÿÿ8»ëÉÈŸ.
+Rsquid:S1066A"/Merge this if statement with the enclosing one.(ÏÆìËùÿÿÿÿ8ë ¶»Ÿ.
+V
+squid:S106i"9Replace this use of System.out or System.err by a logger.(µ€áì8ë ¶»Ÿ.
+V
+squid:S106t"9Replace this use of System.out or System.err by a logger.(²–½À8ë ¶»Ÿ.
+asquid:S1155r">Use isEmpty() to check whether the collection is empty or not.(á±ºÑÿÿÿÿÿ8»ëÉÈŸ.
+usquid:S3776\"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8Ïå®½Ÿ.
+Rsquid:S1066:"/Merge this if statement with the enclosing one.(—€õúÿÿÿÿ8ë ¶»Ÿ.
+T
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ÿ‰¼ıÿÿÿÿ
+[
+squid:S106m"9Replace this use of System.out or System.err by a logger.(·²ÅÀüÿÿÿÿ8Ïû¼¼Ÿ.
+\squid:S1155o">Use isEmpty() to check whether the collection is empty or not.(×°ñå8»ëÉÈŸ.
+isquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(øûå8Ç¹æŒ .
+hsquid:S2674)"JCheck the return value of the "read" call to see how many bytes were read.(ü§°Œ8úŸº»Ÿ.

@@ -92,8 +92,9 @@ public class BitTorrents {
     public static void main(String[] args) throws Exception {
         // String baseUrl="E:\\nieyue\\IntelliJIDE\\work\\Mybt\\src\\main\\resources";
          String baseUrl = "E:\\nieyue\\ide\\Mybt\\src\\main\\resources";
-       // BitTorrentInfo info=parse(baseUrl+"/torrent/EP60.torrent");
-        BitTorrentInfo info=parse(baseUrl+"/torrent/1.torrent");
+        BitTorrentInfo info=parse(baseUrl+"/torrent/file1.jar.torrent");
+      //  BitTorrentInfo info=parse(baseUrl+"/torrent/EP60.torrent");
+      //  BitTorrentInfo info=parse(baseUrl+"/torrent/tester.rmvb.torrent");
         System.out.println("info.getCreateBy()="+info.getCreateBy());
         System.out.println("BitTorrentInfo信息:"+info.getAnnounce()+"\t"+info.getComment()+"\t"+info.getCreateBy()+"\t"+info.getCreationDate());
         Info it=info.getInfo();  
