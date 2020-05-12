@@ -43,6 +43,13 @@
             <artifactId>bt-upnp</artifactId>
             <version>1.9</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.jimfs</groupId>
+            <artifactId>jimfs</artifactId>
+            <version>1.1</version>
+            <scope>compile</scope>
+        </dependency>
+
 
         <!--<dependency>
             <groupId>com.turn</groupId>

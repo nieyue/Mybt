@@ -1,54 +1,59 @@
 
-nsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(ÓÂ“—øÿÿÿÿ8Ù¢ü˜ .
-[
-squid:S1068"9Replace this use of System.out or System.err by a logger.(´ò•Øùÿÿÿÿ8µœ†” .
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯éÅ8Çè— .
 V
-squid:S106="9Replace this use of System.out or System.err by a logger.(›åÔ’8Çè— .
-[
-squid:S1067"9Replace this use of System.out or System.err by a logger.(ßî¶¯ùÿÿÿÿ8Ä¶Â” .
+squid:S106K"9Replace this use of System.out or System.err by a logger.(º§×£8­•Þ“ .
 V
-squid:S1066"9Replace this use of System.out or System.err by a logger.(•åÁ8ÙêÜ“ .
+squid:S1068"9Replace this use of System.out or System.err by a logger.(•åÁ8ÙêÜ“ .
+Fsquid:S1148`"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Çè— .
 [
-squid:S1069"9Replace this use of System.out or System.err by a logger.(¢Óä¿þÿÿÿÿ8µœ†” .
+squid:S106M"9Replace this use of System.out or System.err by a logger.(´ò•Øùÿÿÿÿ8³àÿ“ .
 V
-squid:S106%"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
-V
-squid:S1061"9Replace this use of System.out or System.err by a logger.(£Œ¤¢8Çè— .
-isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
-isquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(ÿþ­8Çè— .
+squid:S106/"9Replace this use of System.out or System.err by a logger.(Ÿ´Å«8«ê†” .
 [
-squid:S106D"9Replace this use of System.out or System.err by a logger.(ê§“ûÿÿÿÿ8Çè— .
-isquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ßî¶¯ùÿÿÿÿ8Ä¶Â” .
+isquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(§š‚²8·ëª™ .
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
 V
-squid:S106-"9Replace this use of System.out or System.err by a logger.(Ÿ´Å«8«ê†” .
-isquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+squid:S106\"9Replace this use of System.out or System.err by a logger.(Þ›Èý8Çè— .
+[
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ê§“ûÿÿÿÿ8Çè— .
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¢Óä¿þÿÿÿÿ8µœ†” .
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(´ò•Øùÿÿÿÿ8µœ†” .
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯éÅ8Çè— .
+zsquid:S1192'"\Define a constant instead of duplicating this literal "peerInformation getAddress=" 4 times.(’Ò©Ð8Çè— .
+isquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(¢Óä¿þÿÿÿÿ8™€” .
 V
-squid:S106."9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+squid:S106O"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
 V
-squid:S106Z"9Replace this use of System.out or System.err by a logger.(Þ›Èý8Çè— .
+squid:S106W"9Replace this use of System.out or System.err by a logger.(œ‰­ó8Çè— .
+isquid:CommentedOutCodeLineb"<This block of commented-out lines of code should be removed.(ÿþ­8Çè— .
+Ksquid:S1604l"(Make this anonymous inner class a lambda(ý°ñþÿÿÿÿ8·ëª™ .
 V
-squid:S106I"9Replace this use of System.out or System.err by a logger.(º§×£8­•Þ“ .
-[
-squid:S106P"9Replace this use of System.out or System.err by a logger.(ãà½ºýÿÿÿÿ8Çè— .
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(°ìÑµýÿÿÿÿ8Çè— .
-Fsquid:S1148^"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Çè— .
-isquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
-[
-squid:S106J"9Replace this use of System.out or System.err by a logger.(ßî¶¯ùÿÿÿÿ8Ö©þ“ .
+squid:S106?"9Replace this use of System.out or System.err by a logger.(›åÔ’8Çè— .
+Tsquid:S1153p"1Directly append the argument of String.valueOf().(œ”Æùÿÿÿÿÿ8Äú› .
 V
-squid:S106U"9Replace this use of System.out or System.err by a logger.(œ‰­ó8Çè— .
-[
-squid:S106B"9Replace this use of System.out or System.err by a logger.(É¯—Îøÿÿÿÿ8Çè— .
-[
-squid:S106$"9Replace this use of System.out or System.err by a logger.(¹­²ìøÿÿÿÿ8´©ˆ” .
+squid:S1060"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+isquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
 V
-squid:S106:"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
-zsquid:S1192%"\Define a constant instead of duplicating this literal "peerInformation getAddress=" 4 times.(’Ò©Ð8Çè— .
-[
-squid:S106K"9Replace this use of System.out or System.err by a logger.(´ò•Øùÿÿÿÿ8³àÿ“ .
-[
-squid:S106L"9Replace this use of System.out or System.err by a logger.(¢Óä¿þÿÿÿÿ8™€” .
+squid:S106<"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
 V
-squid:S106M"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+squid:S1063"9Replace this use of System.out or System.err by a logger.(£Œ¤¢8Çè— .
+isquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(Êšæ‘8Çè— .
+[
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ãà½ºýÿÿÿÿ8Çè— .
+[
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ßî¶¯ùÿÿÿÿ8Ö©þ“ .
+V
+squid:S106'"9Replace this use of System.out or System.err by a logger.(’Ò©Ð8Çè— .
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(¹­²ìøÿÿÿÿ8´©ˆ” .
+Fsquid:S1148r"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8·ëª™ .
+isquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(ÿþ­8µÞª› .
+¤%squid:RedundantThrowsDeclarationCheckf"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8·ëª™ .
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(°ìÑµýÿÿÿÿ8Çè— .
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(É¯—Îøÿÿÿÿ8Çè— .

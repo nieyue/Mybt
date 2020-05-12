@@ -1,13 +1,10 @@
 
-Isquid:S1481"+Remove this unused "config" local variable.(¥ÓÀ÷8ýŸ›’ .
+csquid:UselessImportCheck"8Remove this unused import 'java.util.function.Supplier'.(†ïÿ‘8ŸÙ¬Íž.
+hsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(¬÷ÚR8ýŸ›’ .
+nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ÂÕó£üÿÿÿÿ8ýŸ›’ .
+dsquid:UselessImportCheck"4Remove this unused import 'bt.TorrentClientBuilder'.(¸ÆÏŠûÿÿÿÿ8ŸÙ¬Íž.
+Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8·º£Íž.
+[squid:UselessImportCheck	"0Remove this unused import 'bt.metainfo.Torrent'.(Û÷±ã8ŸÙ¬Íž.
+asquid:UselessImportCheck"1Remove this unused import 'bt.runtime.BtRuntime'.(É°óÙúÿÿÿÿ8·º£Íž.
 asquid:UselessImportCheck
 "6Remove this unused import 'bt.metainfo.TorrentSource'.(Ýý…8¦Ã©Íž.
-nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ÂÕó£üÿÿÿÿ8ýŸ›’ .
-Xsquid:S1854":Remove this useless assignment to local variable "config".(¥ÓÀ÷8ýŸ›’ .
-hsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(¬÷ÚR8ýŸ›’ .
-asquid:UselessImportCheck"1Remove this unused import 'bt.runtime.BtRuntime'.(É°óÙúÿÿÿÿ8·º£Íž.
-nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(öÈ–´üÿÿÿÿ8ýŸ›’ .
-csquid:UselessImportCheck"8Remove this unused import 'java.util.function.Supplier'.(†ïÿ‘8ŸÙ¬Íž.
-[squid:UselessImportCheck	"0Remove this unused import 'bt.metainfo.Torrent'.(Û÷±ã8ŸÙ¬Íž.
-Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8·º£Íž.
-dsquid:UselessImportCheck"4Remove this unused import 'bt.TorrentClientBuilder'.(¸ÆÏŠûÿÿÿÿ8ŸÙ¬Íž.

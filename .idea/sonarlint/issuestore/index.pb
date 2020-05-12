@@ -22,3 +22,7 @@ b
 2src/main/java/com/nieyue/ttorrent/TorrentUtil.java,3\b\3bd049eb2de5e66c2650e93ee1dc9b903d54135b
 d
 4src/main/java/com/nieyue/ttorrent/TorrentServer.java,0\e\0eda53b43fed1ae22130548fd99cbf430f614e4c
+S
+#src/main/resources/log4j.properties,7\5\755950bb690295904a49d36e60958901c54013b8
+[
++src/main/java/com/nieyue/util/FileUtil.java,4\3\434f6f21d079bc99b6e56422472ddcb6d2c7c627

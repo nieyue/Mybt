@@ -1,8 +1,8 @@
 
-isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(’Ä„õ8ÈºÑ˜ .
+nsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(£ì†§ÿÿÿÿÿ8Ø®Æ– .
+V
+squid:S1068"9Replace this use of System.out or System.err by a logger.(®–èÌ8£õÒ– .
 Fsquid:S1604%"(Make this anonymous inner class a lambda(žØ­¡8Ø®Æ– .
-nsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(£ì†§ÿÿÿÿÿ8Ø®Æ– .
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(’Ä„õ8ÈºÑ˜ .
 [
 squid:S106."9Replace this use of System.out or System.err by a logger.(Çõéüÿÿÿÿ8€ìÊ— .
-V
-squid:S1067"9Replace this use of System.out or System.err by a logger.(®–èÌ8£õÒ– .

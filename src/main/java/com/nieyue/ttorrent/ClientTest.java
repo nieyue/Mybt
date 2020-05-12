@@ -32,6 +32,7 @@ public class ClientTest {
                     targetDirPath
                     , address
             );
+
             result.addListener(new TorrentListener() {
                 @Override
                 public void peerConnected(PeerInformation peerInformation) {
@@ -109,7 +110,8 @@ public class ClientTest {
                 @Override
                 public void run() {
                     try {
-                        start(baseUrl + "/torrent/1.torrent",baseUrl + "/video/"+String.valueOf(finalI));
+                        //start(baseUrl + "/torrent/1.torrent",baseUrl + "/video/"+String.valueOf(finalI));
+                        start(baseUrl + "/torrent/old/EP60.torrent",baseUrl + "/video/"+String.valueOf(finalI));
                     } catch (IOException e) {
                         e.printStackTrace();
                     }

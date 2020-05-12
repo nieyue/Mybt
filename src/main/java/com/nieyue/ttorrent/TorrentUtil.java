@@ -49,4 +49,15 @@ public class TorrentUtil {
             e.printStackTrace();
         }
     }
+
+    public static void main(String[] args) {
+        List<URI> announceList=new ArrayList<>();
+        URI uri=URI.create("http://localhost:6969");
+        announceList.add(uri);
+        String baseUrl = "src/main/resources";
+        String inputfilepath=baseUrl+"/source/1.mp4";
+        String torrentFilePath=baseUrl+"/torrent/1.torrent";
+        String createdBy="nieyue";
+        createTorrentFile(announceList,inputfilepath,torrentFilePath,createdBy);
+    }
 }

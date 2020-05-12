@@ -1,0 +1,22 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚¦½Ï
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èÂî› .
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Ú¯Í°
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÌÉí8¸Ëï› .
+_squid:S1075
+"ARefactor your code to get this URI from a customizable parameter.(Ìƒï©8¸Ëï› .
+jsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(¶ÌÉí8¸Ëï› .
+d
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8­‹ï› .
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(ı¼”–8¸Ëï› .
+T
+squid:S106)"9Replace this use of System.out or System.err by a logger.(óù’Ôşÿÿÿÿ
+]squid:S1118":Add a private constructor to hide the implicit public one.(‡ÛŸÚıÿÿÿÿ8¸Ëï› .
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(¼Ù—“
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(–‰ÑW
+Isquid:S1172"+Remove this unused method parameter "args".(¶ÌÉí8¸Ëï› .
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

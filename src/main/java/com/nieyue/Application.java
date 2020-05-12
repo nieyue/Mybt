@@ -6,8 +6,13 @@ import bt.data.Storage;
 import bt.data.file.FileSystemStorage;
 import bt.dht.DHTConfig;
 import bt.dht.DHTModule;
+import bt.magnet.MagnetUri;
+import bt.magnet.MagnetUriParser;
 import bt.metainfo.Torrent;
 import bt.metainfo.TorrentSource;
+import bt.peerexchange.PeerExchangeConfig;
+import bt.peerexchange.PeerExchangeModule;
+import bt.processor.magnet.MagnetContext;
 import bt.runtime.BtClient;
 import bt.runtime.BtRuntime;
 import bt.runtime.Config;
@@ -33,7 +38,7 @@ public class Application {
             }
         };
 
-        config.setAcceptorPort(6899);
+        //config.setAcceptorPort(6899);
         // enable bootstrapping from public routers
         Module dhtModule = new DHTModule(new DHTConfig() {
             @Override
@@ -43,8 +48,8 @@ public class Application {
         });
 
         //Path targetDirectory = Paths.get(System.getProperty("user.home"), "Downloads");
-       // Path targetDirectory = Paths.get(baseUrl+"/video/1.mp4");
-        Path targetDirectory = Paths.get(baseUrl+"/video");
+        Path targetDirectory = Paths.get(baseUrl+"/video/1.mp4");
+      //  Path targetDirectory = Paths.get(baseUrl+"/video");
         Storage storage = new FileSystemStorage(targetDirectory);
         URL url = null;
         try {
@@ -53,11 +58,12 @@ public class Application {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
+
         BtClient client = Bt.client()
                 .storage(storage)
-               .torrent(url)
+               //.torrent(url)
                // .magnet("magnet:?xt=urn:btih:A7CDEDE5F3468A93BA39B06BA209CD997CDB29BF&dn=SQTE-021&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce")
-                //.magnet("magnet:?xt=urn:btih:AF0D9AA01A9AE123A73802CFA58CCAF355EB19F0")
+                .magnet("magnet:?xt=urn:btih:5dbde2ccce0bcdd9d9ca30b2db3c1bb51b9b7410")
                 .autoLoadModules()
                 .module(dhtModule)
                 .stopWhenDownloaded()
@@ -65,7 +71,23 @@ public class Application {
 
         client.startAsync().join();
     }
+
+    public static void init(){
+        PeerExchangeConfig config = new PeerExchangeConfig() {
+            @Override
+            public int getMinEventsPerMessage() {
+                // don't send PEX message if there are less than 50 added/dropped peer events
+                return 50;
+            }
+        };
+
+        PeerExchangeModule customModule = new PeerExchangeModule(config);
+        BtRuntime runtime = BtRuntime.builder().module(customModule).build();
+        runtime.startup();
+    }
     public static void main(String[] args) {
+        init();
+
         self();
     }
 }

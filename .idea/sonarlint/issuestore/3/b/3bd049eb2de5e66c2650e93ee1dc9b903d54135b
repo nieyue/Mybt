@@ -1,10 +1,10 @@
 
-jsquid:CallToDeprecatedMethod("6Remove this use of "TorrentCreator"; it is deprecated.(¡ Åùÿÿÿÿ8Íû²— .
-esquid:CallToDeprecatedMethod$"6Remove this use of "TorrentCreator"; it is deprecated.(àé¬8›Ñ²— .
-asquid:S1155!">Use isEmpty() to check whether the collection is empty or not.(îëöàúÿÿÿÿ8Ğ±— .
-bsquid:S21470"DCombine this catch with the one at line 46, which has the same body.(ï­£Ä8À¡¢— .
 dsquid:S2142."FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8À¡¢— .
+bsquid:S21470"DCombine this catch with the one at line 46, which has the same body.(ï­£Ä8À¡¢— .
+jsquid:CallToDeprecatedMethod("6Remove this use of "TorrentCreator"; it is deprecated.(¡ Åùÿÿÿÿ8Íû²— .
+Fsquid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8À¡¢— .
+asquid:S1155!">Use isEmpty() to check whether the collection is empty or not.(îëöàúÿÿÿÿ8Ğ±— .
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(ŒÒ•¦8ÎÆÁ— .
+esquid:CallToDeprecatedMethod$"6Remove this use of "TorrentCreator"; it is deprecated.(àé¬8›Ñ²— .
 jsquid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(ÖÙşöúÿÿÿÿ8Ğ±— .
 Fsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8À¡¢— .
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(ŒÒ•¦8ÎÆÁ— .
-Fsquid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8À¡¢— .

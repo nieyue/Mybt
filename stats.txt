@@ -1,0 +1,6 @@
+Uptime: PT3M0.198S
+
+[de1a5c49d191cb15b3ee914ca71cf7f43d0ff407]	total known peers:      1
+	(         InetPeer{address=/192.168.1.106, port=-1})	data available:   0%	times discovered:      0,	times connected:      1,	times disconnected:      0
+
+
